@@ -9,7 +9,9 @@
     <h1>Exemplo de PHP</h1>
 
     <?php 
-        echo "Hoje é dia ";
+        date_default_timezone_set("America/Sao_Paulo");
+        echo "Hoje é dia " . date("d/M/Y");
+        echo " e a hora é " . date("G:i");
     ?>
 
 </body>
