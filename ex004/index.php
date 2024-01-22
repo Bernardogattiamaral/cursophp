@@ -27,5 +27,6 @@
     $vet = [6, "Denis", true, 9.8];
     var_dump($vet);
     ?>
+    <p><a href="teste.php">Link para o teste</a></p>
 </body>
 </html>
